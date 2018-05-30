@@ -5,8 +5,8 @@ app.get('/', (req, res, next) => {
 });
 
 // 1. Regular Node.js server
-// app.listen(3000);
+app.listen(3000, () => console.log('Server running on port 3000.'));
 
 // 2. Packaging the server up to be deployed on Lambda
-const serverless = require('serverless-http');
-module.exports.server = serverless(app);
+// const serverless = require('serverless-http');
+// module.exports.server = serverless(app);

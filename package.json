@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "offline": "sls offline start"
+    "offline": "sls offline start",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
