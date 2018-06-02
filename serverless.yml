@@ -7,17 +7,6 @@ provider:
   region: eu-central-1
   memorySize: 1024
 
-  # apiKeys: # List of API keys to be used by your service API Gateway REST API
-  #   - myApiKey
-  # usagePlan: # Optional usage plan configuration
-  #   quota:
-  #     limit: 5000
-  #     offset: 2
-  #     period: MONTH
-  #   throttle:
-  #     burstLimit: 200
-  #     rateLimit: 100
-
 functions:
   app:
     handler: app.server
