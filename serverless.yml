@@ -22,5 +22,5 @@ functions:
           method: ANY
           cors: true
 
-plugins:
-  - serverless-offline
+# plugins:
+#   - serverless-offline
