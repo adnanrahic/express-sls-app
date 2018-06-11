@@ -6,8 +6,8 @@ custom:
 provider:
   name: aws
   runtime: nodejs8.10
-  stage: production
-  region: eu-central-1
+  stage: dev
+  region: eu-west-1
   environment: 
     NODE_ENV: ${self:custom.secrets.NODE_ENV}
 
@@ -24,5 +24,5 @@ functions:
           method: ANY
           cors: true
 
-# plugins:
-#   - serverless-offline
+plugins:
+  - serverless-offline
