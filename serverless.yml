@@ -8,6 +8,7 @@ provider:
   runtime: nodejs8.10
   stage: ${self:custom.secrets.NODE_ENV}
   region: eu-central-1
+  profile: serverless-admin
   environment: 
     NODE_ENV: ${self:custom.secrets.NODE_ENV}
 
